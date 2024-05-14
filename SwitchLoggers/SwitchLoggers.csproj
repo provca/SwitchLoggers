@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Authors>Pere Rovira</Authors>
+    <Description>A .NET 8.0 compatible class library that streamlines the selection and utilization of diverse loggers in software projects. Initially, it offers integration with NLog, Serilog and a custom Trace Log, while also providing the flexibility to expand and integrate additional logging frameworks.</Description>
+    <Company>N/A</Company>
+    <ProjectUrl>https://github.com/provca</ProjectUrl>
+    <Version>1.0.0</Version>
+    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="5.3.2" />
+    <PackageReference Include="NLog.Schema" Version="5.3.2" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="5.0.1" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
